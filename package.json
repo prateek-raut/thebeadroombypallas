@@ -1,0 +1,20 @@
+{
+  "name": "the-bead-room-ecommerce",
+  "version": "1.0.0",
+  "description": "The Bead Room by Pallas - Handcrafted Jewellery & Art Workshops in Nagpur",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "ps-server": "powershell -ExecutionPolicy Bypass -File .\\server.ps1"
+  },
+  "keywords": ["ecommerce", "handcrafted-jewellery", "art-workshops", "nagpur", "beads"],
+  "author": "The Bead Room by Pallas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13"
+  }
+}
